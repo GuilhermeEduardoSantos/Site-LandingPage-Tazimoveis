@@ -1,0 +1,183 @@
+*{
+    font-size: 10px;
+     margin: 0px;
+     
+  }
+
+    header{
+    align-content: center;
+    background-color: #cbcbcb;
+    display: flex;
+    justify-content: center;
+    
+    }
+
+
+    header img{
+        width: 120px;
+        cursor: pointer;
+        margin: 0;
+        }
+
+
+    .paisagem{
+        background:url("predio-vista.jpg") ;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height:100%;
+        
+        } 
+        
+        
+    .titulo {
+        position: relative;
+        top: 50px;
+       left: 30%;
+       display: block;
+       text-align: center;
+       background-color: white;
+       border-radius: 50px;
+       padding: 10px;
+        width: 40%;
+        
+    }
+   .titulo h1{
+    font-size: 24px;
+   }  
+
+   .titulo span{
+    font-size: 10px;
+   }
+
+
+   .titulo img{
+    width: 85%;
+
+   }
+
+   .texto{
+    position: relative;
+    top: 55px;
+   left: 30%;
+   display: block;
+   text-align: center;
+   background-color: white;
+   border-radius: 50px;
+   padding: 10px;
+    width: 40%;
+
+   }
+   
+   .texto p{
+
+    font-size: 13px;
+   }
+
+
+   .bonus{
+    position: relative;
+ 
+  
+   text-align: center;
+
+   }
+
+
+   .bonus td{
+   position: relative;
+   top: 55px;
+   left: 22%;
+   display: inline-block;
+   text-align: center;
+   background-color: white;
+   border-radius: 50px;
+   margin: 10px;
+   padding: 10px;
+   width: 55%;
+   
+   }
+
+   .bonus img{
+  
+    position: relative;
+    
+    align-content: center;
+    width: 40%;
+   }
+
+
+   .fun{
+    position: relative;
+    top: 700px;
+   display: block;
+   text-align: center;
+   
+   }
+  
+   .banco{
+    
+    position: relative;
+    height: 500px;
+    display: block;
+    text-align: center;
+   
+}
+    .banco img{
+          
+    position: absolute;
+    text-align: center;
+    width:70%;
+    left: 16%;
+    height: 100%;
+    opacity: 0;
+    transition:1s;
+}
+    .bullets{
+    top: 500px;
+    text-align: center;
+}
+    .bullet-single{
+       
+    margin:0 8px;
+    cursor: pointer;
+    display: inline-block;
+    width:20px;
+    height:20px;
+    border-radius:10px;
+    background-color: #ccc;
+}
+    .active-bullet{
+    background-color:#333;
+}
+
+
+.final{
+    
+   text-align: center;
+   
+   border-radius: 50px;
+   margin: 10px;
+   padding: 10px;
+   width: 100%;
+   display:inline; 
+   left: 30%;
+align-content: center;
+position: relative;
+   
+}
+.final img{
+  
+    position: relative;
+    
+    align-content: center;
+    
+   }
+   
+
+footer{
+background-color: yellow;
+
+
+
+}   

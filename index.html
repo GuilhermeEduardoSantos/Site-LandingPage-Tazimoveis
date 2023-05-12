@@ -1,0 +1,190 @@
+<html lang="pt-br">
+    <head>
+        <meta name="viewport" content="width-device-width, initial-scale=1, maximum-scale=1.0"> <!--dimensionamento para celular-->      
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="estilo.css">
+    
+    
+        <title>Taz Wimoveis</title>
+    </head>
+
+    <body>
+        <header>
+            <img src="logo2.0.png" alt="era pra ter uma imagem de logo aqui">
+
+        </header>
+
+        <div class="paisagem">
+           <div class="titulo">
+            <h1>Ca 02 Ed Monumental Armários Planejados Vista Livre Ao Lado Do Deck Norte</h1>
+            <span><b>SHIN</b>, Lago Norte, Brasília</span>
+           </br>
+            <img src="info.png" alt="era pra ter uma imagem de logo aqui">
+           </div>
+        
+
+           <div class="texto">
+            <p>ED Monumental - CA 02 - Lago Norte \ DF.</p>
+           </br>
+            <p>Oportunidade com Exclusividade!!</p>
+           </br>
+            <p>Kit com 40m² divida em quarto sala e cozinha. Armários planejados em todos os ambientes... opção de ficar a mobília (negociar valor).
+            <p>Unidade em andar Térreo com vista livre.</p>
+            <p>Condomínio com portaria, piscina, áreas de convivência, parte externa com jardinagem...linda vista panorâmica.</p>
+            </br>
+            <p>Excelente localização, ao lado do Deck Norte, comercio geral, Shopping Iguatemi ...entre outros benefícios.</p>
+        </p>
+    </br>
+            <p>Aceita Financiamento Bancário.</p>
+</br>
+            <p>Agende sua visita</p>
+           </div>
+
+        <div class="bonus">
+            <table width="100%">
+                <tr width="100%">
+                <td>   
+                <img src="bonus1.png" alt="era pra ter uma imagem de logo aqui">
+                </td> 
+           
+                <td>    
+                 <img src="bonus2.png" alt="era pra ter uma imagem de logo aqui">
+                </td>
+                <td>     
+                <img src="bonus3.png" alt="era pra ter uma imagem de logo aqui">
+               </td> 
+                </tr>          
+            </table>      
+        </div>
+        </div>
+
+   
+        <div class="fun">
+        <div class="banco">
+            <img style="opacity:1;" src="portaria.jpg" />
+            <img src="predio.jpg" />
+            <img src="corredor.jpg" />
+            <img src="casa.png" />
+        </div>
+            
+        <div class="bullets">
+            <div class="bullet-single active-bullet"></div>
+            <div class="bullet-single"></div>
+            <div class="bullet-single"></div>
+            <div class="bullet-single"></div>
+        </div>
+    </div>
+
+</br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
+</br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
+
+        <div class="final">
+        
+                    <img src="preco.png" alt="era pra ter uma imagem de logo aqui">
+
+        </div>
+
+        <div class="final">
+
+            <img src="contato.png" alt="era pra ter uma imagem de logo aqui">
+
+
+        </div>
+    </br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
+    </body>
+
+    <footer>
+    </br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        var lastIndex = 0;
+        
+        var images = document.querySelectorAll('.banco img');
+
+        images.forEach((item,index)=>{
+            document.querySelectorAll('.bullet-single')[index]
+            .addEventListener('click',()=>{
+                let lastImage = document.querySelectorAll('.banco img')[lastIndex];
+                let actualImage = document.querySelectorAll('.banco img')[index]
+
+                //Resetar as bullets e setar a nova com base na imagem.
+
+                document.querySelectorAll('.bullet-single')[lastIndex]
+                .classList.remove('active-bullet');
+                
+                ;
+                document.querySelectorAll('.bullet-single')[index]
+                .classList.add('active-bullet');
+
+                lastImage.style.opacity = 0;
+                actualImage.style.opacity = 1;
+
+                lastIndex = index;
+            })
+        })
+
+
+
+    </script>
+
+
+
+
+
+
+
+
+</html>    
